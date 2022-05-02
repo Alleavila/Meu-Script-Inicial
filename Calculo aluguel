@@ -1,0 +1,6 @@
+km = int(input('Quantos quilometros foram percorridos:'))
+dias = int(input('Quantos dias foi alugado:'))
+
+taxas = 60 * dias + 0.15 * km
+print('Km:{} Dias:{}' .format(km, dias))
+print('Valor total:{}'.format(taxas))
